@@ -7,30 +7,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="backgrounds/1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/youtube.js"></script>
+    <script src="musicas/1.js"></script>
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <div id="container">
       <div id="left">
         <div class="buttons-container">
-          <a href="#" class="button-wrapper">
+          <a class="button-wrapper" id="button-camera" target="iframe_content">
             <h1 class="button-icon">📷</h1>
           </a>
         </div>
       </div>
       <div id="center">
-        <p class="center-msg">Feliz 4<br>Meses!</p>
-        <iframe id="content">
-
-        </iframe>
+        <p class="center-msg">Feliz 4 Meses!<br>Que venham todos os outros!</p>
+        <div class="invisible" id="content-container">
+          <h3 id="content-title">Mensagem do Dia</h3>
+          <a href="#" id="content-close">X</a>
+          <iframe id="content" name="iframe_content">
+          </iframe>
+        </div>
       </div>
       <div id="right">
         <div class="buttons-container">
-          <a href="#" class="button-wrapper">
+          <a class="button-wrapper" id="button-message" target="iframe_content">
             <h1 class="button-icon">💌</h1>
           </a>
         </div>
       </div>
+    </div>
+    <div id="music-controls">
+      <a href="#" class="music-control" id="button-play-video">▶</a>
+      <a href="#" class="music-control" id="button-pause-video">⏸</a>
+      <span id="music-name"></span>
+    </div>
+    <div id="video-container" style="display: none;">
+      <iframe id="video-player" width="640" height="390" frameborder="0" title="YouTube video player" type="text/html" allow="autoplay"></iframe>
     </div>
   </body>
 </html>

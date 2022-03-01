@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: pink;
 }
 
@@ -18,6 +18,7 @@ div#left {
 }
 
 div#center {
+  position: relative;
   flex-grow: 2;
 }
 
@@ -35,41 +36,114 @@ div.buttons-container {
 
 p.center-msg {
   position: absolute;
-  top: 50%;
+  /* height: 100%; */
   width: 100%;
   text-align: center;
   font-family: 'Great Vibes', cursive;
+  z-index: -1;
   /* font-family: 'Sacramento', cursive; */
   font-size: 80pt;
+  text-shadow: 0 0 15px red;
 }
 
 a.button-wrapper {
   text-align: center;
-  font-size: large;
   color: black;
   font-weight: bold;
   text-decoration: none;
   text-shadow: 0 0 5px white;
-  /* font-; */
 }
 
 a.button-wrapper:hover {
-  color: darkgoldenrod;
   text-shadow: 0 0 15px white;
 }
 
 h1.button-icon {
   color: red;
-  font-size: 70pt;
+  font-size: 86pt;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.fadeout {
+  animation: fadeOut 1s;
+  opacity: 0;
+}
+
+.fadein {
+  animation: fadeIn 1s;
+  opacity: 1;
+}
+
+div#content-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+#content-close {
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  text-decoration: none;
+  color: black;
+}
+
+#content-title {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 iframe#content {
   width: 100%;
-  height: 80vh;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid black;
-  border-radius: 10px;
+  height: 60vh;
+  border: none;
+}
 
-  /* border: none; */
-  /* margin: 20px; */
+div#music-controls {
+  position: fixed;
+  width: 400px;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -200px;
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: large;
+}
+
+.music-control {
+  text-decoration: none;
+  color: darkred;
+  font-size: large;
+  margin-right: 10px;
+}
+
+#music-name {
+  font-size: large;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: inherit;
+  }
+  to {
+    opacity: 0;
+  }
 }
