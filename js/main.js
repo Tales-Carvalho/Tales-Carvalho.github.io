@@ -3,6 +3,7 @@ $(document).ready(() => {
   $("a#button-message").attr("href", "mensagens/1.html")
   $("iframe#video-player").attr("src", `https://www.youtube.com/embed/${music_id}?enablejsapi=1&loop=1`)
   $("#music-name").text(music_name)
+  $("#music-name").attr("href", `https://www.youtube.com/watch?v=${music_id}`)
 })
 
 $("#button-play-video").click(() => {
