@@ -25,9 +25,16 @@
     }
   </style>
   <body>
-    <img src="fotos/1.jpg">
+    <img id="img-foto">
     <p>
-      <a href="fotos/1.jpg" download="foto">Baixar Foto</a>
+      <a id="link-foto" download="foto">Baixar Foto</a>
     </p>
   </body>
+  <script>
+    (function() {
+      num = new Date().getDate()
+      document.getElementById("img-foto").setAttribute("src", `fotos/${num}.jpg`)
+      document.getElementById("link-foto").setAttribute("href", `fotos/${num}.jpg`)
+    })()
+  </script>
 </html>

@@ -1,9 +1,15 @@
-$(document).ready(() => {
+const load = (num) => {
+  $("body").addClass(`bg-${num}`)
   $("a#button-camera").attr("href", "foto_layout.html")
-  $("a#button-message").attr("href", "mensagens/1.html")
-  $("iframe#video-player").attr("src", `https://www.youtube.com/embed/${music_id}?enablejsapi=1&loop=1`)
-  $("#music-name").text(music_name)
-  $("#music-name").attr("href", `https://www.youtube.com/watch?v=${music_id}`)
+  $("a#button-message").attr("href", `mensagens/${num}.html`)
+  $("iframe#video-player").attr("src", `https://www.youtube.com/embed/${musicas[num-1].id}?enablejsapi=1&loop=1`)
+  $("#music-name").text(musicas[num-1].name)
+  $("#music-name").attr("href", `https://www.youtube.com/watch?v=${musicas[num-1].id}`)
+}
+
+$(document).ready(() => {
+  // load(new Date().getDate())
+  load(2)
 })
 
 $("#button-play-video").click(() => {

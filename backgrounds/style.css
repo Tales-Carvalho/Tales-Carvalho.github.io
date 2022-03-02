@@ -1,0 +1,34 @@
+.bg-1 {
+  background-image: url("bg_hearts.jpg");
+  background-color: pink;
+  background-blend-mode: lighten;
+  background-position: 0px 0px;
+  animation: animatedBackground 60s linear infinite;
+}
+
+.bg-2 {
+  background-image: url("bg_hearts.jpg");
+  background-color: lightcoral;
+  background-blend-mode: lighten;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackgroundRev 60s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes animatedBackgroundRev {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100% 100%;
+  }
+}
