@@ -15,6 +15,24 @@
   animation: animatedBackgroundRev 60s linear infinite;
 }
 
+.bg-3 {
+  background-image: url("bg_karaoke.png"), url("bg_grad_redblue.jpg");
+  background-color: blue, white;
+  background-blend-mode: color, normal;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 60vw, cover;
+}
+
+.bg-4 {
+  background-image: url("bg_flowers.jpg");
+  background-color: blue;
+  background-blend-mode: lighten;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground 10s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
