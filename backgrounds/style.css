@@ -25,12 +25,12 @@
 }
 
 .bg-4 {
-  background-image: url("bg_flowers.jpg");
-  background-color: blue;
-  background-blend-mode: lighten;
+  background-image: radial-gradient(rgba(255, 255, 0, 0.5), rgba(255, 255, 255, 1)), url("bg_flowers.jpg");
+  background-color: yellow;
+  background-blend-mode: normal, multiply;
+  background-size: cover, cover;
   background-position: 0px 0px;
-  /* background-repeat: repeat-x; */
-  animation: animatedBackground 10s linear infinite;
+  animation: animatedBackground2 60s linear infinite;
 }
 
 @keyframes animatedBackground {
@@ -39,6 +39,15 @@
   }
   to {
     background-position: 100% 100%;
+  }
+}
+
+@keyframes animatedBackground2 {
+  from {
+    background-position: 0 0, 0 0;
+  }
+  to {
+    background-position: 0 0, 100vw 100vh;
   }
 }
 
