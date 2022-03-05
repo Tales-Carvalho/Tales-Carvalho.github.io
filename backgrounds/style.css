@@ -33,12 +33,30 @@
   animation: animatedBackground2 60s linear infinite;
 }
 
+.bg-5 {
+  background-image: radial-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 255, 1)), url("bg_clubpenguin.jpg");
+  background-color: white;
+  background-blend-mode: normal, multiply;
+  background-size: cover, 200vw;
+  background-position: 0px 0px;
+  animation: animatedBackground3 30s ease infinite alternate;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
   }
   to {
     background-position: 100% 100%;
+  }
+}
+
+@keyframes animatedBackground3 {
+  from {
+    background-position: 0 0, 0 0;
+  }
+  to {
+    background-position: 0 0, 100% 100%;
   }
 }
 
