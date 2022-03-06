@@ -3,5 +3,6 @@ const musicas = [
   {name: "Smash Mouth - All Star", id: "L_jWHffIx5E"},
   {name: "Grease - Summer Nights", id: "A_J2bcNx3Gw"},
   {name: "Aurora - The Secret Garden", id: "NRorLcHt8Bw"},
-  {name: "Club Penguin - Coffee Shop", id: "u2vcN6zIFSg"}
+  {name: "Club Penguin - Coffee Shop", id: "u2vcN6zIFSg"},
+  {name: "Stardew Valley - Summer", id: "k0nqXeM-sns"}
 ]

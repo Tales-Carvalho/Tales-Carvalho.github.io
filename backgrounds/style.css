@@ -42,6 +42,15 @@
   animation: animatedBackground3 30s ease infinite alternate;
 }
 
+.bg-6 {
+  background-image: radial-gradient(rgba(127, 255, 127, 0.5), rgba(255, 255, 255, .8)), url("bg_stardewvalley.png");
+  background-color: white;
+  background-blend-mode: normal, multiply;
+  background-size: cover, 120vw;
+  background-position: 0px 0px;
+  animation: animatedBackground3 30s ease infinite alternate;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
