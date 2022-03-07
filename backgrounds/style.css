@@ -51,6 +51,15 @@
   animation: animatedBackground3 30s ease infinite alternate;
 }
 
+.bg-7 {
+  background-image: url("bg_cozinha.png");
+  background-color: lightsalmon;
+  background-blend-mode: darken;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackgroundRev 30s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
