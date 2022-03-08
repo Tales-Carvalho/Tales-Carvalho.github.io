@@ -60,6 +60,15 @@
   animation: animatedBackgroundRev 30s linear infinite;
 }
 
+.bg-8 {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url("bg_avatar.jpg");
+  background-color: white;
+  background-blend-mode: normal, multiply;
+  background-size: cover, 110vw;
+  background-position: 0px 0px;
+  animation: animatedBackground3 30s ease infinite alternate;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

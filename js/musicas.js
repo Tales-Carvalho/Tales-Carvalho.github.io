@@ -5,5 +5,6 @@ const musicas = [
   {name: "Aurora - The Secret Garden", id: "NRorLcHt8Bw"},
   {name: "Club Penguin - Coffee Shop", id: "u2vcN6zIFSg"},
   {name: "Stardew Valley - Summer", id: "k0nqXeM-sns"},
-  {name: "Le Festin - Camille (Ratatouille)", id: "p_hdmt4vpBo"}
+  {name: "Le Festin - Camille (Ratatouille)", id: "p_hdmt4vpBo"},
+  {name: "Avatar the Last Airbender - Main Theme", id: "7beKHRC9PKc"}
 ]
