@@ -69,6 +69,15 @@
   animation: animatedBackground3 30s ease infinite alternate;
 }
 
+.bg-9 {
+  background-image: radial-gradient(rgba(10, 10, 180, 0.8), rgb(0, 0, 0)), url("bg_pacman.jpg");
+  background-color: darkblue;
+  background-blend-mode: normal, normal;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground2 30s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
