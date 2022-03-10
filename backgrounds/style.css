@@ -78,6 +78,15 @@
   animation: animatedBackground2 30s linear infinite;
 }
 
+.bg-10 {
+  background-image: radial-gradient(rgba(255, 178, 255, 0.7), rgb(255, 178, 255)), url("bg_icecream.png");
+  background-color: darkblue;
+  background-blend-mode: normal, normal;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground2 30s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

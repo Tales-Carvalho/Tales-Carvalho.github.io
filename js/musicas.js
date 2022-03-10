@@ -7,5 +7,7 @@ const musicas = [
   {name: "Stardew Valley - Summer", id: "k0nqXeM-sns"},
   {name: "Le Festin - Camille (Ratatouille)", id: "p_hdmt4vpBo"},
   {name: "Avatar the Last Airbender - Main Theme", id: "7beKHRC9PKc"},
-  {name: "Theme of Sanic (Volume Warning)", id: "PX7zPlQjAr8"}
+  {name: "Theme of Sanic (Volume Warning)", id: "PX7zPlQjAr8"},
+  {name: "Taylor Swift - Love Story (Taylor's Version)", id: "aXzVF3XeS8M"}
+  // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]
