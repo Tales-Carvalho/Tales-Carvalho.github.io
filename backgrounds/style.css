@@ -87,6 +87,15 @@
   animation: animatedBackground2 30s linear infinite;
 }
 
+.bg-11 {
+  background-image: radial-gradient(rgba(20, 20, 180, 0.8), rgb(80, 20, 20)), url("bg_spider.png");
+  background-color: darkblue;
+  background-blend-mode: normal, normal;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground2 120s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

@@ -8,6 +8,7 @@ const musicas = [
   {name: "Le Festin - Camille (Ratatouille)", id: "p_hdmt4vpBo"},
   {name: "Avatar the Last Airbender - Main Theme", id: "7beKHRC9PKc"},
   {name: "Theme of Sanic (Volume Warning)", id: "PX7zPlQjAr8"},
-  {name: "Taylor Swift - Love Story (Taylor's Version)", id: "aXzVF3XeS8M"}
+  {name: "Taylor Swift - Love Story (Taylor's Version)", id: "aXzVF3XeS8M"},
+  {name: "Spiderman Theme Song", id: "wl90tt4newk"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]
