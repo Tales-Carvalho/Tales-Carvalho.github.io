@@ -10,6 +10,7 @@ const musicas = [
   {name: "Theme of Sanic (Volume Warning)", id: "PX7zPlQjAr8"},
   {name: "Taylor Swift - Love Story (Taylor's Version)", id: "aXzVF3XeS8M"},
   {name: "Spiderman Theme Song", id: "wl90tt4newk"},
-  {name: "Dogsong (Undertale)", id: "woPff-Tpkns"}
+  {name: "Dogsong (Undertale)", id: "woPff-Tpkns"},
+  {name: "Avril Lavigne - Smile", id: "UMq22oiXNb4"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]

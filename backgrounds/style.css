@@ -105,6 +105,15 @@
   background-size: cover;
 }
 
+.bg-13 {
+  background-image: radial-gradient(rgba(255, 255, 0, 0.8), rgba(255, 255, 255, 0)), url("bg_rock.jpg");
+  background-color: white;
+  background-blend-mode: normal;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
