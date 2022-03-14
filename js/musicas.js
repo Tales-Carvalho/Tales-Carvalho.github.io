@@ -11,6 +11,7 @@ const musicas = [
   {name: "Taylor Swift - Love Story (Taylor's Version)", id: "aXzVF3XeS8M"},
   {name: "Spiderman Theme Song", id: "wl90tt4newk"},
   {name: "Dogsong (Undertale)", id: "woPff-Tpkns"},
-  {name: "Avril Lavigne - Smile", id: "UMq22oiXNb4"}
+  {name: "Avril Lavigne - Smile", id: "UMq22oiXNb4"},
+  {name: "Master Chef - Abertura (2ª Temporada)", id: "rjizbigxaU4"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]
