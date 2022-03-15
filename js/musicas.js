@@ -12,6 +12,7 @@ const musicas = [
   {name: "Spiderman Theme Song", id: "wl90tt4newk"},
   {name: "Dogsong (Undertale)", id: "woPff-Tpkns"},
   {name: "Avril Lavigne - Smile", id: "UMq22oiXNb4"},
-  {name: "Master Chef - Abertura (2ª Temporada)", id: "rjizbigxaU4"}
+  {name: "Master Chef - Abertura (2ª Temporada)", id: "rjizbigxaU4"},
+  {name: "The Queen's Gambit - Main Title", id: "GYbMxFGXVTA"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]

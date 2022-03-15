@@ -123,6 +123,15 @@
   background-size: cover, cover;
 }
 
+.bg-15 {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.6), rgb(20, 20, 20)), url("bg_chess.png");
+  background-color: darkblue;
+  background-blend-mode: normal, normal;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground2 120s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
