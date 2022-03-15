@@ -13,6 +13,7 @@ const musicas = [
   {name: "Dogsong (Undertale)", id: "woPff-Tpkns"},
   {name: "Avril Lavigne - Smile", id: "UMq22oiXNb4"},
   {name: "Master Chef - Abertura (2ª Temporada)", id: "rjizbigxaU4"},
-  {name: "The Queen's Gambit - Main Title", id: "GYbMxFGXVTA"}
+  {name: "The Queen's Gambit - Main Title", id: "GYbMxFGXVTA"},
+  {name: "Taylor Swift - All Too Well (Taylor's Version)", id: "sRxrwjOtIag"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]

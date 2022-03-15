@@ -8,8 +8,8 @@ const load = (num) => {
 }
 
 $(document).ready(() => {
-  load(new Date().getDate())
-  // load(15)
+  // load(new Date().getDate())
+  load(16)
 })
 
 $("#button-play-video").click(() => {
