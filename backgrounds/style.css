@@ -141,6 +141,15 @@
   background-size: cover, cover;
 }
 
+.bg-17 {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.1)), url("bg_undertale.png");
+  background-color: red, white;
+  background-blend-mode: normal, normal;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

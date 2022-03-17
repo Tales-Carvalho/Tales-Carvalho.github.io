@@ -9,7 +9,7 @@ const load = (num) => {
 
 $(document).ready(() => {
   load(new Date().getDate())
-  // load(16)
+  // load(17)
 })
 
 $("#button-play-video").click(() => {
