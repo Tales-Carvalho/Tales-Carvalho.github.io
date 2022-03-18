@@ -32,7 +32,7 @@
   </body>
   <script>
     (function() {
-      num = new Date().getDate()
+      const num = window.location.search.substring(1)
       document.getElementById("img-foto").setAttribute("src", `fotos/${num}.jpg`)
       document.getElementById("link-foto").setAttribute("href", `fotos/${num}.jpg`)
     })()

@@ -1,6 +1,7 @@
 const load = (num) => {
+  $("body").removeClass()
   $("body").addClass(`bg-${num}`)
-  $("a#button-camera").attr("href", "foto_layout.html")
+  $("a#button-camera").attr("href", `foto_layout.html?${num}`)
   $("a#button-message").attr("href", `mensagens/${num}.html`)
   $("iframe#video-player").attr("src", `https://www.youtube.com/embed/${musicas[num-1].id}?enablejsapi=1&loop=1`)
   $("#music-name").text(musicas[num-1].name)
@@ -8,8 +9,10 @@ const load = (num) => {
 }
 
 $(document).ready(() => {
-  load(new Date().getDate())
-  // load(17)
+  if (location.hostname == '') // Note for myself: this checks if running locally
+    load(new Date().getDate() + 1) // Then, preview next day
+  else
+    load(new Date().getDate())
 })
 
 $("#button-play-video").click(() => {
