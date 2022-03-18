@@ -150,6 +150,15 @@
   background-size: cover, cover;
 }
 
+.bg-18 {
+  background-image: radial-gradient(rgba(255, 192, 203, 0.6), rgb(255, 192, 203)), url("bg_cats.jpg");
+  /* background-color: rgb(255, 106, 255); */
+  background-blend-mode: normal, normal;
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground2 120s linear infinite;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

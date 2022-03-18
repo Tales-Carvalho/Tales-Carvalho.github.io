@@ -15,6 +15,7 @@ const musicas = [
   {name: "Master Chef - Abertura (2ª Temporada)", id: "rjizbigxaU4"},
   {name: "The Queen's Gambit - Main Title", id: "GYbMxFGXVTA"},
   {name: "Taylor Swift - All Too Well (Taylor's Version)", id: "sRxrwjOtIag"},
-  {name: "Ghost Fight (Undertale)", id: "Zz1bfhtKsHM"}
+  {name: "Ghost Fight (Undertale)", id: "Zz1bfhtKsHM"},
+  {name: "Nyan Cat", id: "QH2-TGUlwu4"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]
