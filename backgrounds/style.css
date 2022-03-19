@@ -159,6 +159,15 @@
   animation: animatedBackground2 120s linear infinite;
 }
 
+.bg-19 {
+  background-image: radial-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 1)), url("bg_canada.jpg");
+  background-color: white;
+  background-blend-mode: normal, multiply;
+  background-size: cover, 120vw;
+  background-position: 0px 0px;
+  animation: animatedBackground3 60s ease infinite alternate;
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;

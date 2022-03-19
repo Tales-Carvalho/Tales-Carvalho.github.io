@@ -16,6 +16,7 @@ const musicas = [
   {name: "The Queen's Gambit - Main Title", id: "GYbMxFGXVTA"},
   {name: "Taylor Swift - All Too Well (Taylor's Version)", id: "sRxrwjOtIag"},
   {name: "Ghost Fight (Undertale)", id: "Zz1bfhtKsHM"},
-  {name: "Nyan Cat", id: "QH2-TGUlwu4"}
+  {name: "Nyan Cat", id: "QH2-TGUlwu4"},
+  {name: "Oh Canada (National Anthem of Canada)", id: "zwDvF0NtgdU"}
   // {name: "Bruno Major - Nothing", id: "ucRVDoFkcxc"}
 ]
