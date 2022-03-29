@@ -106,6 +106,24 @@ iframe#content {
   border: none;
 }
 
+a#button-help {
+  text-decoration: none;
+}
+
+div#top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  padding: 20px;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.8);
+  font-size: large;
+}
+
 div#music-controls {
   position: fixed;
   width: 420px;
