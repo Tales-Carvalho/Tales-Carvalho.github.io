@@ -108,6 +108,9 @@ iframe#content {
 
 a#button-help {
   text-decoration: none;
+  border-radius: 15px;
+  padding: 4px;
+  background-color: white;
 }
 
 div#top-row {
