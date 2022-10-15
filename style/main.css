@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+nav {
+    flex: 0 1 auto;
+}
+
+main {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+}
+
+article {
+    height: 400px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.article-container {
+    padding: 50px 150px;
+    /* height: 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-container#home {
+    background: linear-gradient(rgb(251, 251, 255), rgb(200, 200, 255));
+    background-attachment: fixed;
+}
+
+.article-container#projects {
+    background: linear-gradient(rgb(251, 251, 255), rgb(255, 200, 200));
+    background-attachment: fixed;
+}
+
+.article-container#publications {
+    background: linear-gradient(rgb(251, 251, 255), rgb(255, 255, 200));
+    background-attachment: fixed;
+}
+
+.article-container#hobbies {
+    background: linear-gradient(rgb(251, 251, 255), rgb(200, 255, 200));
+    background-attachment: fixed;
+}
+
+.article-container#contact {
+    background: linear-gradient(rgb(251, 251, 255), rgb(255, 200, 255));
+    background-attachment: fixed;
+}
+
+footer {
+    flex: 0 1 40px;
+}
